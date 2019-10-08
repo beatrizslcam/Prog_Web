@@ -1,0 +1,102 @@
+/*cor da página*/
+body{
+    background-color: antiquewhite;
+}
+/*flex container que alinha tudo no meio, busca e o conteudo*/
+.flex_container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+/*flex que alinha tudo a direita,os icones usuario e compras*/
+#flexright{
+  display:inline-flexbox;
+  align-items: right;
+  justify-content: flex-end;
+  margin-left:  80%;
+  margin-top: -6%;
+  margin-bottom:100px
+} 
+
+/*flex que alinha a esquerda, a logo*/
+#flexleft{
+  display:inline-flex;
+  align-items: left;
+  justify-content: flex-start;
+}
+
+/*dimensiona caixa de texto e dar cor*/
+#divBusca{
+  float:left;
+  background-color:rgba(189, 194, 194, 0.829);
+  border-radius:15px;
+  width:300px;
+  margin:auto;
+  
+}
+/*configura a letra da caixa de texto*/
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+ 
+
+/*organizando os links no centro*/
+a{
+   text-align: center;
+ }
+ /*dando cor ao linkk e */
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: gray;
+	}
+a:hover {
+  text-decoration: none;  
+	color:#000; 
+	font-size:150%; 
+}
+
+.flex-item{
+  width: 250px;
+  height: 200px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+  border: 10px;
+  align-content: center;
+
+}
+.flex-item > img{
+  width: 250px;
+  height:200px;
+  border-radius: 15px;
+  
+}
+
+ul{
+ background-color: white;
+ list-style: none;
+}
+ul li{
+  display: inline;
+}
+ul li a{
+  padding:5px 10px;
+  display: inline-block;
+}
+.fundo{
+  margin-left: 10px;
+  align-content: center;
+  display: inline-block;
+  background-color: white;
+  height: 260px;
+  width: 250px;
+  border-radius: 5px;
+}
